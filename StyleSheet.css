@@ -42,11 +42,6 @@ form input {
     transition: 0.2s ease all;
 }
 
-form input[type=text]:focus,
-form input[type="password"]:focus {
-    border-color: cornflowerblue;
-}
-
 input[type=submit] {
     padding: 15px 50px;
     width: auto;

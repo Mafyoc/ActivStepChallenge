@@ -3,8 +3,8 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 form {
-    margin: 10% auto 0 auto;
-    padding: 30px;
+    margin: 0% auto 0 auto;
+    padding: 15px;
     width: 400px;
     height: auto;
     overflow: hidden;
@@ -81,12 +81,28 @@ table {
     margin-right: auto;
 }
 
+thead, tbody {
+    display: block;
+}
+
+tbody {
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px; /* Just for the demo          */
+    overflow-y: auto; /* Trigger vertical scroll    */
+    overflow-x: hidden; /* Hide the horizontal scroll */
+}
+
 th{
     text-align:left;
     padding-top:4px;
     padding-bottom:4px;
+    position:sticky;
+    top:0;
+    background-color:darkgray;
 }
 
 td {
-    padding: 12px;
+    padding:12px 12vw 2px 4px;
 }

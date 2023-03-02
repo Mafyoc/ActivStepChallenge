@@ -1,5 +1,4 @@
 <!doctype html>
-<link href="StyleSheet.css" type="text/css" />
 <html>
 <head>
     <link rel="stylesheet" href="StyleSheet.css" />

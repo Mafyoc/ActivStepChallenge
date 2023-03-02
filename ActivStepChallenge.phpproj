@@ -1,0 +1,14 @@
+<Project Sdk="Devsense.Php.Sdk">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>69a77895-0368-4d38-88f1-1dcc319d7364</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnvName>PHPDev</EnvName>
+    <RuntimeVersion>8.2</RuntimeVersion>
+    <RootNamespace>ActivStepChallenge</RootNamespace>
+    <WebRoot>activetest.uk</WebRoot>
+    <PHPDevHostName>ftp.activtest.uk</PHPDevHostName>
+    <PHPDevAutoPort>true</PHPDevAutoPort>
+    <PHPDevRouting />
+  </PropertyGroup>
+</Project>

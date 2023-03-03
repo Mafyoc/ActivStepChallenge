@@ -11,4 +11,7 @@
     <PHPDevAutoPort>true</PHPDevAutoPort>
     <PHPDevRouting />
   </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="functions\" />
+  </ItemGroup>
 </Project>

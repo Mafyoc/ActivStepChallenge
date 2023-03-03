@@ -1,30 +1,41 @@
-﻿body {
+﻿#formElement {
+    display: inline-block;
+    text-align: left;
+    margin-inline: 25.8px;
+}
+#editButton {
+    margin: 0px;
+    width: fit-content;
+    padding: 5px 15px;
+}
+body {
     text-align:center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 form {
+    display: inline-block;
     margin: 0% auto 0 auto;
     padding: 15px;
-    width: 400px;
+    width: auto;
     height: auto;
     overflow: hidden;
-    background: white;
-    border-radius: 10px;
+    background-color: #e3e3e3;
+    border-radius: 0px;
 }
 
 form label {
-    font-size: 14px;
-    color: darkgray;
-    cursor: pointer;
+    font-size: 18px;
+    color: #575757;
+    #cursor: pointer;
 }
-
+/*
 form label,
 form input {
     float: left;
     clear: both;
-}
+}*/
 
-form input {
+form input{
     margin: 15px 0;
     padding: 15px 10px;
     width: 100%;
@@ -40,6 +51,8 @@ form input {
     -ms-transition: 0.2s ease all;
     -o-transition: 0.2s ease all;
     transition: 0.2s ease all;
+    position: sticky;
+    top: 0;
 }
 
 input[type=submit] {
@@ -49,8 +62,6 @@ input[type=submit] {
     border: none;
     color: white;
     cursor: pointer;
-    display: inline-block;
-    float: right;
     clear: right;
     -webkit-transition: 0.2s ease all;
     -moz-transition: 0.2s ease all;
@@ -74,6 +85,9 @@ table {
     padding: 20px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 220px;
+    border:none;
+    max-width:80vw;
 }
 
 thead, tbody {
@@ -84,20 +98,23 @@ tbody {
     width: auto;
     margin-left: auto;
     margin-right: auto;
-    height: 200px; /* Just for the demo          */
-    overflow-y: auto; /* Trigger vertical scroll    */
-    overflow-x: hidden; /* Hide the horizontal scroll */
+    height: auto; 
+    #overflow-y: auto; 
+    #overflow-x: hidden;
 }
 
-th{
-    text-align:left;
-    padding-top:4px;
-    padding-bottom:4px;
-    position:sticky;
-    top:0;
-    background-color:darkgray;
+th {
+    text-align: left;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    position: sticky;
+    top: 128px;
+    background-color: darkgray;
+    font-size:xx-large;
 }
 
-td {
-    padding:12px 12vw 2px 4px;
+td{
+    padding:12px 12px 2px 4px;
+    width:12vw;
+    min-width:auto;
 }

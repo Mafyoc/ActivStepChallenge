@@ -1,7 +1,7 @@
 ﻿#formElement {
     display: inline-block;
     text-align: left;
-    margin-inline: 25.8px;
+    margin-inline: 7px;
 }
 #editButton {
     margin: 0px;
@@ -9,8 +9,11 @@
     padding: 5px 15px;
 }
 body {
-    text-align:center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 70vw;
+    margin: auto;
+    max-width: 1400px;
 }
 form {
     display: inline-block;
@@ -19,7 +22,6 @@ form {
     width: auto;
     height: auto;
     overflow: hidden;
-    background-color: #e3e3e3;
     border-radius: 0px;
 }
 
@@ -51,11 +53,9 @@ form input{
     -ms-transition: 0.2s ease all;
     -o-transition: 0.2s ease all;
     transition: 0.2s ease all;
-    position: sticky;
-    top: 0;
 }
 
-input[type=submit] {
+#submit{
     padding: 15px 50px;
     width: auto;
     background: #1abc9c;
@@ -108,9 +108,9 @@ th {
     padding-top: 4px;
     padding-bottom: 4px;
     position: sticky;
-    top: 128px;
+    top: 132px;
     background-color: darkgray;
-    font-size:xx-large;
+    font-size: xx-large;
 }
 
 td{

@@ -16,9 +16,8 @@ body {
     max-width: 1400px;
 }
 form {
-    display: inline-block;
+    display: block;
     margin: 0% auto 0 auto;
-    padding: 15px;
     width: auto;
     height: auto;
     overflow: hidden;
@@ -78,7 +77,6 @@ input[type="submit"]:active {
     opacity: 0.4;
 }
 
-
 table {
     text-align: center;
     border-collapse: collapse;
@@ -94,27 +92,16 @@ thead, tbody {
     display: block;
 }
 
-tbody {
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto; 
-    #overflow-y: auto; 
-    #overflow-x: hidden;
-}
-
 th {
     text-align: left;
     padding-top: 4px;
     padding-bottom: 4px;
     position: sticky;
-    top: 132px;
+    top: 112px;
     background-color: darkgray;
     font-size: xx-large;
 }
 
 td{
-    padding:12px 12px 2px 4px;
     width:12vw;
-    min-width:auto;
 }
